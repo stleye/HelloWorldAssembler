@@ -1,11 +1,11 @@
 ; HelloWorld.asm
 ; Author: Sebastian Tleye
 
-global _main
+global _start
 
 section .text
 
-_main:
+_start:
 
 	mov eax, 0x4       ;eax has to contain the syscall number (for write, the value is 4)
 	mov ebx, 0x1       ;ebx will contain stdout
