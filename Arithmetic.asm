@@ -1,6 +1,8 @@
 ; Arithmetic.asm
 ; Author: Sebastian Tleye
 
+global _start
+
 section .text
 _start:
 
