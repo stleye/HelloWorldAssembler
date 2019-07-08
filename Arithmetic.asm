@@ -18,7 +18,7 @@ _start:
 
 	mov eax, 0						; eax = 0
 	add byte [var1], 0x22 			;	 
-	add byte [var1], 0x1122 		;
+	add byte [var1], 0x11 	 		;
 
 	add word [var2], 0x1122			;
 	add word [var2], 0x3344			;
