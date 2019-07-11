@@ -13,7 +13,11 @@ _exit:
 
 _start:
 
+	mov eax, -10
 	lea esi, [var1]
+	cqd
+	add [esi+4], eax
+	adc [esi], edx
 
 	call _exit
 
